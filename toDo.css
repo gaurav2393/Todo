@@ -1,0 +1,48 @@
+ul.to-do-list li.completed {
+	text-decoration: line-through;
+	background-color: #00b200;
+}
+/*.to-do-list li.completed:before {
+	content: '&#10004';
+	position: relative;
+	left: -10px;
+}*/
+.error {
+	color: #ff1919;
+	margin-left: 20px;
+}
+.to-do-list {
+	list-style-type: none;
+	padding: 0;
+}
+.to-do-list li {	
+	margin-top: 7px;
+	position: relative;
+}
+.to-do-list li span {
+	padding: 8px 10px;
+}
+.to-do-list li .todo-name {
+	width: 100%;
+	display: block;
+}
+ul.to-do-list li:hover {
+	background-color: #A9A9A9;
+	cursor: pointer;
+}
+.to-do-list li:nth-child(odd) {
+	background-color: beige;
+}
+.to-do-list li:nth-child(even) {
+	background-color: aliceblue;
+}
+.to-do-list .close {
+	position: absolute;
+	right: 20px;
+	top: -2px;
+}
+.to-do-list .close:hover {
+	background-color: #ff1919;
+	cursor: pointer;
+}
+		
