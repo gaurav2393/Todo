@@ -15,7 +15,7 @@ class TodoList extends React.PureComponent {
     handleDeleteTodo() {
         this.props.dispatch(setDeleteTodo(this.props.todoItem.name, this.props.index));
     }
-    render() {
+    render() {        
         return (
             <li className={this.props.todoItem.completed ? 'completed' : ''}>
                 <span className="todo-name" onClick={this.handleStrikeOff}>
